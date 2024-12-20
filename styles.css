@@ -1,0 +1,67 @@
+/* Allgemeine Stile */
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url(./imagenes/madera.jpg) no-repeat center center/ cover;
+  }
+  
+  /* Container */
+  
+  .haupt-container {
+    width: 80vw;
+    max-width: 600px;
+    min-height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+  
+  .button-container {
+    padding: 20px;
+  }
+  
+  /* Stoppuhr */
+  
+  #stoppuhr {
+    width: 100%;
+    font-size: 80px;
+    font-weight: bold;
+    user-select: none;
+    font-family: 'Noto Sans Thai', sans-serif;
+  }
+  
+  /* Buttons */
+  
+  .button {
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  #button-start-pause.starten,
+  #button-start-pause.starten i {
+    background-color: #08e008;
+  }
+  
+  #button-start-pause.pausieren,
+  #button-start-pause.pausieren i {
+    background-color: #ffdc00;
+  }
+  
+  #button-reset {
+    background-color: red;
+  }
+  
