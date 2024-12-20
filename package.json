@@ -1,0 +1,16 @@
+{
+  "name": "conometro-2",
+  "module": "app.ts",
+  "type": "module",
+
+  "scripts": {
+     "dev": "bun build --watch index.ts --outdir dist",
+    "bun-watch": "bun run --watch index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
