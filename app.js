@@ -1,4 +1,4 @@
-          // Wählen Sie die Buttons aus.               
+           // Wählen Sie die Buttons aus.               
 var buttonStartPause = document.querySelector("#button-start-pause"); 
 var buttonReset = document.querySelector("#button-reset");
 // Variablen zur Speicherung der Sekunden, Minuten und Stunden.
