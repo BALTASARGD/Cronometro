@@ -1,4 +1,4 @@
-import { JSDOM } from 'jsdom'; 
+ import { JSDOM } from 'jsdom'; 
 
 const { window } = new JSDOM(`<!DOCTYPE html><body><button id="button-start-pause"></button><button id="button-reset"></button></body>`);
 const { document } = window;
