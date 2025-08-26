@@ -1,7 +1,7 @@
    // Wählen Sie die Buttons aus.            
 var buttonStartPause = document.querySelector("#button-start-pause"); 
 var buttonReset = document.querySelector("#button-reset");
-// Variablen zur Speicherung der Sekunden, Minuten und Stunden.
+// Vari ablen zur Speicherung der Sekunden, Minuten und Stunden.
 var _a = [0, 0, 0], sekunden = _a[0], minuten = _a[1], stunden = _a[2];
 // Variablen zur Verwaltung des Zeitintervalls und des Status der Stoppuhr.
 var zeitintervall;
